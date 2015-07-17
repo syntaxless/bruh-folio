@@ -34,6 +34,11 @@ img{
   padding:100px 0;
 }
 
+::selection{
+  background: $blue;
+  color: $white;
+}
+
 
 //Masthead
 .logo-main{
@@ -58,7 +63,7 @@ span{
 .grid{
   padding-top: 0px;
   p{
-    text-align: center;
+    padding-top: 20px;
     font-size: 2.5rem;
   }
 }
@@ -70,6 +75,13 @@ span{
   background: $blue;
 }
 
+
+//Interior
+.caption{
+  background: lighten($black, 75%);
+  padding: 20px;
+  font-size: 1.75rem;
+}
 
 
 //Footer

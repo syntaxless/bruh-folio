@@ -30,17 +30,23 @@ img {
   padding: 100px 0;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
+::selection {
+  background: #2fa1fa;
+  color: #f8f8f8;
+}
+
+/* line 44, ../sass/style.scss */
 .logo-main {
   fill: #141414;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 span {
   font-weight: 900;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .masthead p {
   text-align: center;
   font-size: 1.8rem;
@@ -49,34 +55,41 @@ span {
   margin-top: 20px;
 }
 
-/* line 58, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .grid {
   padding-top: 0px;
 }
-/* line 60, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .grid p {
-  text-align: center;
+  padding-top: 20px;
   font-size: 2.5rem;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .grid .row {
   margin: 0;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .hvr-underline-from-left:before {
   background: #2fa1fa;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
+.caption {
+  background: lightgray;
+  padding: 20px;
+  font-size: 1.75rem;
+}
+
+/* line 88, ../sass/style.scss */
 .footer {
   background: #2fa1fa;
   color: #f8f8f8;
   font-size: 2.2rem;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .contact {
   padding: 5px 40px;
   margin: 0 5px;
@@ -90,20 +103,20 @@ span {
   font-size: 1.6rem;
   letter-spacing: 3px;
 }
-/* line 94, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .contact:hover {
   background: #f8f8f8;
   color: #2fa1fa;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .bruh {
   fill: #f8f8f8;
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  /* line 109, ../sass/style.scss */
+  /* line 121, ../sass/style.scss */
   .grid .row {
     margin: 25px 0;
   }
